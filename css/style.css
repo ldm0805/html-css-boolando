@@ -183,3 +183,10 @@ main{
 i {
     padding-right: 5px;
 }
+
+/* bonus */
+
+.overlay-heart:hover .heart{
+    opacity: 1;
+    color: red;
+}
