@@ -42,18 +42,55 @@
     display: flex;
     width: 100%;
     margin: 10px 0;
-    border: 1px solid red;
 }
 
 .col-33-main{
-    border: 1px solid red;
     width: calc(100% / 3);
 }
 
 .main-content{
     margin: 10px;
-}
-.main-content img{
-    width: 100%
+    position: relative;
 }
 
+.main-content img{
+    width: 100%;
+
+}
+
+.label{
+    position: absolute;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.label.red{
+    width: 40px;
+    left: 0;
+    bottom: 40px;
+}
+
+.label.green{
+    left: 50px;
+    bottom: 40px;
+}
+
+.label.green{
+    left: 50px;
+    bottom: 40px;
+}
+
+.label.zero.green{
+    left:0;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
