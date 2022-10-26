@@ -94,3 +94,25 @@
 .red{
     background-color: red;
 }
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 8px;
+    font-size: 25px;
+    background-color: white;
+}
+
+.clothes-detail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    flex-wrap: nowrap;
+}
+
+
+.sale-price:not(del){
+    color: red;
+    font-weight: bold;
+}
